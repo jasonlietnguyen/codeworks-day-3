@@ -1,0 +1,44 @@
+body{
+    background-image: url(http://wallpaperpulse.com/img/705241.jpg);
+}
+.container{
+    width: 150px;
+    margin: 0 auto;
+    background-color: black;
+}
+.circle{
+    width: 50px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+    background-color: black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin: 10px auto;
+}
+#red{
+    background-color: red;
+    background-image: url(http://img12.deviantart.net/d0e5/i/2015/077/9/6/red_texture_by_lg_design-d8m1km6.jpg);
+    background-size: cover;
+}
+#red:hover{
+    box-shadow: 0 0 50px red, 0 0 100px red, 0 0 100px red, 0 0 100px red;
+}
+#yellow{
+    background-color: yellow;
+    background-image: url(https://www.colourbox.com/preview/2828774-texture-of-yellow-instant-noodles-close-up.jpg);
+    background-size: cover;
+}
+#yellow:hover{
+    box-shadow: 0 0 50px yellow, 0 0 100px yellow, 0 0 100px yellow, 0 0 100px yellow;
+}
+#green{
+    background-color: green;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/36/76/99/367699983e63efc68347f8ada3f83534.jpg);
+    background-size: cover;
+}
+#green:hover{
+    box-shadow: 0 0 50px green, 0 0 100px green, 0 0 100px green, ;
+}

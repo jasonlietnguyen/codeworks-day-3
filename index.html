@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Light</title>
+</head>
+
+<body>
+
+    <div class="circle"></div>
+    <div class="container"><br>
+        <div class="box" id="red"></div>
+        <div class="box" id="yellow"></div>
+        <div class="box" id="green"></div><br>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        for (var index = 0; index < 10; index++) {
+            setTimeout(function () {
+                document.getElementById("red").style.boxShadow = "0 0 50px red, 0 0 50px red, 0 0 50px red, 0 0 50px red, 0 0 50px red";
+            }, 2000);
+            setTimeout(function () {
+                document.getElementById("red").style.boxShadow = "0 0 0 red";
+            }, 3000);
+            setTimeout(function () {
+                document.getElementById("yellow").style.boxShadow = "0 0 50px yellow, 0 0 50px yellow, 0 0 50px yellow, 0 0 50px yellow, 0 0 50px yellow";
+            }, 4000);
+            setTimeout(function () {
+                document.getElementById("yellow").style.boxShadow = "0 0 0 red";
+            }, 5000);
+            setTimeout(function () {
+                document.getElementById("green").style.boxShadow = "0 0 50px green, 0 0 50px green, 0 0 50px green, 0 0 50px green, 0 0 50px green";
+            }, 6000);
+            setTimeout(function () {
+                document.getElementById("green").style.boxShadow = "0 0 0 red";
+            }, 7000);
+        }
+    </script>
+</body>
+
+</html>
