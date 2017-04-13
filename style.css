@@ -40,5 +40,5 @@ body{
     background-size: cover;
 }
 #green:hover{
-    box-shadow: 0 0 50px green, 0 0 100px green, 0 0 100px green, ;
+    box-shadow: 0 0 50px green, 0 0 100px green, 0 0 100px green ;
 }
